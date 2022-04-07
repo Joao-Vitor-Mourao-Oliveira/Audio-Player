@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style2.css">
+    <title>Document</title>
+</head>
+<body>
+ <header><h1><i class="fa-solid fa-music"></i>Player</h1>
+<button onclick="hide()" class="hideMenu"><i class="fa-solid fa-bars"></i></button>
+</header>
+ <div class="music-container">
+     <section id="lista" class="list">
+         <h3>Songs</h3>
+        <ul class="listaS">
+            <li>Beneath the Mask - Persona 5</li>
+            <li>Unshaken - RDR2</li>
+            <li>Cleric Beast - Bloodborne</li>
+            <li>Iwatodai Dorm - Persona 3</li>
+            <li>Promise - Silent hill</li>
+            <li>One Winged Angel - FFVII</li>
+            <li>Gerudo Valley - Zelda</li>
+        </ul>
+    </section>
+    <div class="music-container-into">
+     <div class="music-info">
+         <h4 style="padding: 5px;" id="title">blabla</h4>
+         <div class="progress-container">
+             <div class="progress"></div>
+         </div>
+     </div>
+     <div class="img-container">
+         <img id="cover" width="220px" height="220px" src="./assets/imagens/512x512bb.jpg" alt="music-cover">
+     </div>
+     <div class="navigation">
+         <button class="action-btn" id="prev"><i class="fa-solid fa-backward"></i></button>
+         <button class="action-btn action-btn-big" id="play"><i class="fa-solid fa-pause"></i></button>
+         <button class="action-btn" id="next"><i class="fa-solid fa-forward"></i></button>
+     </div>
+     <audio id="audio" src=""></audio>
+    </div>  
+ </div>
+ <footer style="text-align: center;">project made only with the intention of study</footer>
+    <script src="./script2.js"></script>
+</body>
+</html>
